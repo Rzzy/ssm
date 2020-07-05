@@ -18,4 +18,7 @@ public class OrderServiceImpl implements IOrderService {
         List<Order> orders = orderDao.findAll();
         return orders;
     }
+    public Order findById(String id) throws Exception {
+        return orderDao.findById(id);
+    }
 }

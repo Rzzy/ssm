@@ -17,6 +17,13 @@ public class OrderController {
     @Autowired
     private IOrderService orderService;
 
+    /**
+     * 查询所有订单
+     * @param page
+     * @param size
+     * @return
+     * @throws Exception
+     */
     @RequestMapping("/findAll.do")
     public ModelAndView findAll(@RequestParam(name = "page",required = true,defaultValue = "1") int page, @RequestParam(name = "size",required = true,defaultValue = "2") int size) throws Exception{
 
@@ -25,6 +32,15 @@ public class OrderController {
         List<Order> orders = orderService.findAll(page,size);
         mv.setViewName("orders-list");
         mv.addObject("ordersList",orders);
+        return mv;
+    }
+    @RequestMapping("/findById.do")
+    public ModelAndView findById(@RequestParam(name = "id",required = true) String id) throws Exception {
+        ModelAndView mv = new ModelAndView();
+
+        Order orderDeetail = orderService.findById(id);
+        mv.addObject("orders", orderDeetail);
+        mv.setViewName("orders-show");
         return mv;
     }
 }
