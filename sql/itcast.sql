@@ -137,4 +137,47 @@ values ('CA005CF1BE3C4EF68F88ABC7DF30E976', 'EE7A71FB6945483FBF91543DBE851960');
 insert into ORDER_TRAVELLER (orderid, travellerid)
 values ('E4DD4C45EED84870ABA83574A801083E', 'EE7A71FB6945483FBF91543DBE851960');
 
+ 
+CREATE TABLE users(
+    id varchar2(32) default SYS_GUID() PRIMARY KEY,
+    email VARCHAR2(50) UNIQUE NOT NULL,
+    username VARCHAR2(50),
+    PASSWORD VARCHAR2(50),
+    phoneNum VARCHAR2(20),
+    STATUS INT
+);
+commit;
+
+ 
+CREATE TABLE role(
+    id varchar2(32) default SYS_GUID() PRIMARY KEY,
+    roleName VARCHAR2(50) ,
+    roleDesc VARCHAR2(50)
+);
+commit;
+
+CREATE TABLE users_role(
+    userId varchar2(32),
+    roleId varchar2(32),
+    PRIMARY KEY(userId,roleId),
+    FOREIGN KEY (userId) REFERENCES users(id),
+    FOREIGN KEY (roleId) REFERENCES role(id)
+);
+commit;
+
+CREATE TABLE permission(
+    id varchar2(32) default SYS_GUID() PRIMARY KEY,
+    permissionName VARCHAR2(50) ,
+    url VARCHAR2(50)
+);
+commit;
+
+CREATE TABLE role_permission(
+    permissionId varchar2(32),
+    roleId varchar2(32),
+    PRIMARY KEY(permissionId,roleId),
+    FOREIGN KEY (permissionId) REFERENCES permission(id),
+    FOREIGN KEY (roleId) REFERENCES role(id)
+);
+commit;
 
