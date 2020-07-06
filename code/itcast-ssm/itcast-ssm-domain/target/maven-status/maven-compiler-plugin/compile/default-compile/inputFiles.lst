@@ -1,4 +1,7 @@
 /Users/zhuyu/Desktop/Java/ssm/code/itcast-ssm/itcast-ssm-domain/src/main/java/com/itheima/ssm/domain/Traveller.java
 /Users/zhuyu/Desktop/Java/ssm/code/itcast-ssm/itcast-ssm-domain/src/main/java/com/itheima/ssm/domain/Member.java
+/Users/zhuyu/Desktop/Java/ssm/code/itcast-ssm/itcast-ssm-domain/src/main/java/com/itheima/ssm/domain/Permission.java
 /Users/zhuyu/Desktop/Java/ssm/code/itcast-ssm/itcast-ssm-domain/src/main/java/com/itheima/ssm/domain/Product.java
 /Users/zhuyu/Desktop/Java/ssm/code/itcast-ssm/itcast-ssm-domain/src/main/java/com/itheima/ssm/domain/Order.java
+/Users/zhuyu/Desktop/Java/ssm/code/itcast-ssm/itcast-ssm-domain/src/main/java/com/itheima/ssm/domain/Role.java
+/Users/zhuyu/Desktop/Java/ssm/code/itcast-ssm/itcast-ssm-domain/src/main/java/com/itheima/ssm/domain/UserInfo.java
