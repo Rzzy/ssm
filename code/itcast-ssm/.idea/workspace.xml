@@ -12,6 +12,8 @@
       <change beforePath="$PROJECT_DIR$/itcast-ssm-dao/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/itcast-ssm-dao/target/maven-archiver/pom.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/itcast-ssm-domain/target/itcast-ssm-domain-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/itcast-ssm-domain/target/itcast-ssm-domain-1.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/itcast-ssm-domain/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/itcast-ssm-domain/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itcast-ssm-service/src/main/java/com/itheima/ssm/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/itcast-ssm-service/src/main/java/com/itheima/ssm/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itcast-ssm-service/target/classes/com/itheima/ssm/service/impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/itcast-ssm-service/target/classes/com/itheima/ssm/service/impl/UserServiceImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/itcast-ssm-service/target/itcast-ssm-service-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/itcast-ssm-service/target/itcast-ssm-service-1.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/itcast-ssm-service/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/itcast-ssm-service/target/maven-archiver/pom.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/itcast-ssm-utils/target/itcast-ssm-utils-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/itcast-ssm-utils/target/itcast-ssm-utils-1.0-SNAPSHOT.jar" afterDir="false" />
@@ -24,12 +26,18 @@
       <change beforePath="$PROJECT_DIR$/itcast-ssm-web/target/itcast-ssm-web/WEB-INF/lib/itcast-ssm-domain-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/itcast-ssm-web/target/itcast-ssm-web/WEB-INF/lib/itcast-ssm-domain-1.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/itcast-ssm-web/target/itcast-ssm-web/WEB-INF/lib/itcast-ssm-service-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/itcast-ssm-web/target/itcast-ssm-web/WEB-INF/lib/itcast-ssm-service-1.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/itcast-ssm-web/target/itcast-ssm-web/WEB-INF/lib/itcast-ssm-utils-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/itcast-ssm-web/target/itcast-ssm-web/WEB-INF/lib/itcast-ssm-utils-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/itcast-ssm-web/target/tomcat/logs/access_log.2020-07-08" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/itcast-ssm-web/target/tomcat/logs/access_log.2020-07-09" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/itcast-ssm-web/target/tomcat/work/Tomcat/localhost/itcast-ssm-web/org/apache/jsp/login_jsp.java" beforeDir="false" afterPath="$PROJECT_DIR$/itcast-ssm-web/target/tomcat/work/Tomcat/localhost/itcast-ssm-web/org/apache/jsp/login_jsp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/itcast-ssm-web/target/tomcat/work/Tomcat/localhost/itcast-ssm-web/org/apache/jsp/pages/aside_jsp.java" beforeDir="false" afterPath="$PROJECT_DIR$/itcast-ssm-web/target/tomcat/work/Tomcat/localhost/itcast-ssm-web/org/apache/jsp/pages/aside_jsp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/itcast-ssm-web/target/tomcat/work/Tomcat/localhost/itcast-ssm-web/org/apache/jsp/pages/header_jsp.java" beforeDir="false" afterPath="$PROJECT_DIR$/itcast-ssm-web/target/tomcat/work/Tomcat/localhost/itcast-ssm-web/org/apache/jsp/pages/header_jsp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/itcast-ssm-web/target/tomcat/work/Tomcat/localhost/itcast-ssm-web/org/apache/jsp/pages/main_jsp.java" beforeDir="false" afterPath="$PROJECT_DIR$/itcast-ssm-web/target/tomcat/work/Tomcat/localhost/itcast-ssm-web/org/apache/jsp/pages/main_jsp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/itcast-ssm-web/target/tomcat/work/Tomcat/localhost/itcast-ssm-web/org/apache/jsp/pages/user_002dadd_jsp.java" beforeDir="false" afterPath="$PROJECT_DIR$/itcast-ssm-web/target/tomcat/work/Tomcat/localhost/itcast-ssm-web/org/apache/jsp/pages/user_002dadd_jsp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itcast-ssm-web/target/tomcat/work/Tomcat/localhost/itcast-ssm-web/org/apache/jsp/pages/main_jsp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/itcast-ssm-web/target/tomcat/work/Tomcat/localhost/itcast-ssm-web/org/apache/jsp/pages/main_jsp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/itcast-ssm-web/target/tomcat/work/Tomcat/localhost/itcast-ssm-web/org/apache/jsp/pages/orders_002dlist_jsp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/itcast-ssm-web/target/tomcat/work/Tomcat/localhost/itcast-ssm-web/org/apache/jsp/pages/orders_002dlist_jsp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/itcast-ssm-web/target/tomcat/work/Tomcat/localhost/itcast-ssm-web/org/apache/jsp/pages/product_002dlist_jsp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/itcast-ssm-web/target/tomcat/work/Tomcat/localhost/itcast-ssm-web/org/apache/jsp/pages/product_002dlist_jsp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/itcast-ssm-web/target/tomcat/work/Tomcat/localhost/itcast-ssm-web/org/apache/jsp/pages/user_002dadd_jsp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/itcast-ssm-web/target/tomcat/work/Tomcat/localhost/itcast-ssm-web/org/apache/jsp/pages/user_002dadd_jsp.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/itcast-ssm-web/target/tomcat/work/Tomcat/localhost/itcast-ssm-web/org/apache/jsp/pages/user_002dlist_jsp.java" beforeDir="false" afterPath="$PROJECT_DIR$/itcast-ssm-web/target/tomcat/work/Tomcat/localhost/itcast-ssm-web/org/apache/jsp/pages/user_002dlist_jsp.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -94,6 +102,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.34020618" />
+    <property name="settings.editor.selected.configurable" value="spring" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -308,7 +317,8 @@
       <workItem from="1593701197939" duration="116000" />
       <workItem from="1593701344014" duration="11234000" />
       <workItem from="1594044301927" duration="6592000" />
-      <workItem from="1594221429849" duration="4249000" />
+      <workItem from="1594221429849" duration="4414000" />
+      <workItem from="1595599792393" duration="4634000" />
     </task>
     <servers />
   </component>
@@ -339,22 +349,26 @@
       <screen x="0" y="23" width="1680" height="979" />
     </state>
     <state x="168" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.23.1680.979@0.23.1680.979" timestamp="1594049770974" />
-    <state width="1638" height="284" key="GridCell.Tab.0.bottom" timestamp="1594225141362">
+    <state width="1638" height="152" key="GridCell.Tab.0.bottom" timestamp="1595604444519">
       <screen x="0" y="23" width="1680" height="979" />
     </state>
-    <state width="1638" height="284" key="GridCell.Tab.0.bottom/0.23.1680.979@0.23.1680.979" timestamp="1594225141362" />
-    <state width="1638" height="284" key="GridCell.Tab.0.center" timestamp="1594225141362">
+    <state width="1638" height="152" key="GridCell.Tab.0.bottom/0.23.1680.979@0.23.1680.979" timestamp="1595604444519" />
+    <state width="1638" height="152" key="GridCell.Tab.0.center" timestamp="1595604444518">
       <screen x="0" y="23" width="1680" height="979" />
     </state>
-    <state width="1638" height="284" key="GridCell.Tab.0.center/0.23.1680.979@0.23.1680.979" timestamp="1594225141362" />
-    <state width="1638" height="284" key="GridCell.Tab.0.left" timestamp="1594225141361">
+    <state width="1638" height="152" key="GridCell.Tab.0.center/0.23.1680.979@0.23.1680.979" timestamp="1595604444518" />
+    <state width="1638" height="152" key="GridCell.Tab.0.left" timestamp="1595604444517">
       <screen x="0" y="23" width="1680" height="979" />
     </state>
-    <state width="1638" height="284" key="GridCell.Tab.0.left/0.23.1680.979@0.23.1680.979" timestamp="1594225141361" />
-    <state width="1638" height="284" key="GridCell.Tab.0.right" timestamp="1594225141362">
+    <state width="1638" height="152" key="GridCell.Tab.0.left/0.23.1680.979@0.23.1680.979" timestamp="1595604444517" />
+    <state width="1638" height="152" key="GridCell.Tab.0.right" timestamp="1595604444518">
       <screen x="0" y="23" width="1680" height="979" />
     </state>
-    <state width="1638" height="284" key="GridCell.Tab.0.right/0.23.1680.979@0.23.1680.979" timestamp="1594225141362" />
+    <state width="1638" height="152" key="GridCell.Tab.0.right/0.23.1680.979@0.23.1680.979" timestamp="1595604444518" />
+    <state x="341" y="149" key="SettingsEditor" timestamp="1595599940347">
+      <screen x="0" y="23" width="1680" height="979" />
+    </state>
+    <state x="341" y="149" key="SettingsEditor/0.23.1680.979@0.23.1680.979" timestamp="1595599940347" />
     <state x="517" y="343" key="com.intellij.ide.util.TipDialog" timestamp="1594221433676">
       <screen x="0" y="23" width="1680" height="979" />
     </state>
