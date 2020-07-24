@@ -12,9 +12,9 @@
     <security:http pattern="/css/**" security="none"/>
     <security:http pattern="/img/**" security="none"/>
     <security:http pattern="/plugins/**" security="none"/>
-    <security:http pattern="/user/**" security="none"/>
-    <security:http pattern="/pages/user-add.jsp" security="none"/>
-    <security:http pattern="/pages/**" security="none"/>
+<!--    <security:http pattern="/user/**" security="none"/>-->
+<!--    <security:http pattern="/pages/user-add.jsp" security="none"/>-->
+<!--    <security:http pattern="/pages/**" security="none"/>-->
     <!--
     	配置具体的规则
     	auto-config="true"	不用自己编写登录的页面，框架提供默认登录页面
