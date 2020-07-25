@@ -14,6 +14,14 @@ public class UserController {
     @Autowired
     private IUserService userService;
 
+    @RequestMapping("/findById.do")
+    public ModelAndView findById(String id) throws Exception {
+        ModelAndView mv = new ModelAndView();
+        UserInfo userInfo = userService.findById(id);
+        mv.addObject("user",userInfo);
+        mv.setViewName("user-show1");
+        return mv;
+    }
     @RequestMapping("/findAll.do")
     public ModelAndView findAll() throws Exception{
         ModelAndView mv = new ModelAndView();

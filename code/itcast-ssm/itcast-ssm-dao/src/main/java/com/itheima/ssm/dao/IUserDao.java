@@ -23,4 +23,17 @@ public interface IUserDao {
 
     @Insert("insert into users(EMAIL,USERNAME,PASSWORD,PHONENUM,STATUS) VALUES(#{email},#{username},#{password},#{phoneNum},#{status})")
     public void save(UserInfo user) throws Exception;
+
+    @Select("select * from users where id = #{id}")
+    @Results({
+            @Result(id = true, property = "id",column = "id"),
+            @Result(property = "username",column = "username"),
+            @Result(property = "email",column = "email"),
+            @Result(property = "password",column = "password"),
+            @Result(property = "phoneNum",column = "phoneNum"),
+            @Result(property = "status",column = "status"),
+            @Result(property = "status",column = "status"),
+            @Result(property = "roles",column = "id",javaType = java.util.List.class,many = @Many(select = "com.itheima.ssm.dao.IRoleDao.findRoleByUserId"))
+    })
+    public UserInfo findById(String id) throws Exception;
 }

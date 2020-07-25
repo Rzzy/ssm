@@ -8,4 +8,5 @@ import java.util.List;
 public interface IUserService extends UserDetailsService {
     public List<UserInfo> findAll() throws Exception;
     public void save(UserInfo user) throws Exception;
+    public UserInfo findById(String id) throws  Exception;
 }
