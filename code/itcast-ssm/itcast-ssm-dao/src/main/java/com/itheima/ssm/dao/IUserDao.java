@@ -40,4 +40,7 @@ public interface IUserDao {
 
     @Select("select * from role where id not in (select roleid from users_role where userid = #{userid})")
     List<Role> findUserByIdAndAllRole(String userid) throws Exception;
+
+    @Insert("insert into users_role(userid,roleid) values(#{userid},#{roleid})")
+    public void addRoleToUser(@Param("userid") String userId, @Param("roleid") String roleId);
 }

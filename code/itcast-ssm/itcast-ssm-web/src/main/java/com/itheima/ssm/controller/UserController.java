@@ -54,4 +54,10 @@ public class UserController {
 
         return mv;
     }
+
+    @RequestMapping("/addRoleToUser.do")
+    public String addRoleToUser(@RequestParam(name = "userId", required = true) String userId, @RequestParam(name = "ids", required = true) String[] roleIds){
+        userService.addRoleToUser(userId,roleIds);
+        return "redirect:findAll.do";
+    }
 }

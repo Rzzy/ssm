@@ -7,7 +7,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="667d5963-3350-47e0-9ef7-a5bcc5f73504" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/itcast-ssm-web/src/main/webapp/pages/user-role-add.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/itcast-ssm-dao/src/main/java/com/itheima/ssm/dao/IUserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/itcast-ssm-dao/src/main/java/com/itheima/ssm/dao/IUserDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/itcast-ssm-dao/target/classes/com/itheima/ssm/dao/IUserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/itcast-ssm-dao/target/classes/com/itheima/ssm/dao/IUserDao.class" afterDir="false" />
@@ -24,25 +23,20 @@
       <change beforePath="$PROJECT_DIR$/itcast-ssm-utils/target/itcast-ssm-utils-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/itcast-ssm-utils/target/itcast-ssm-utils-1.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/itcast-ssm-utils/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/itcast-ssm-utils/target/maven-archiver/pom.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/itcast-ssm-web/src/main/java/com/itheima/ssm/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/itcast-ssm-web/src/main/java/com/itheima/ssm/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/itcast-ssm-web/src/main/resources/spring-security.xml" beforeDir="false" afterPath="$PROJECT_DIR$/itcast-ssm-web/src/main/resources/spring-security.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/itcast-ssm-web/target/classes/com/itheima/ssm/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/itcast-ssm-web/target/classes/com/itheima/ssm/controller/UserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/itcast-ssm-web/target/classes/spring-security.xml" beforeDir="false" afterPath="$PROJECT_DIR$/itcast-ssm-web/target/classes/spring-security.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/itcast-ssm-web/target/itcast-ssm-web.war" beforeDir="false" afterPath="$PROJECT_DIR$/itcast-ssm-web/target/itcast-ssm-web.war" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/itcast-ssm-web/target/itcast-ssm-web/WEB-INF/classes/com/itheima/ssm/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/itcast-ssm-web/target/itcast-ssm-web/WEB-INF/classes/com/itheima/ssm/controller/UserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/itcast-ssm-web/target/itcast-ssm-web/WEB-INF/classes/spring-security.xml" beforeDir="false" afterPath="$PROJECT_DIR$/itcast-ssm-web/target/itcast-ssm-web/WEB-INF/classes/spring-security.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/itcast-ssm-web/target/itcast-ssm-web/WEB-INF/lib/itcast-ssm-dao-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/itcast-ssm-web/target/itcast-ssm-web/WEB-INF/lib/itcast-ssm-dao-1.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/itcast-ssm-web/target/itcast-ssm-web/WEB-INF/lib/itcast-ssm-domain-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/itcast-ssm-web/target/itcast-ssm-web/WEB-INF/lib/itcast-ssm-domain-1.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/itcast-ssm-web/target/itcast-ssm-web/WEB-INF/lib/itcast-ssm-service-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/itcast-ssm-web/target/itcast-ssm-web/WEB-INF/lib/itcast-ssm-service-1.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/itcast-ssm-web/target/itcast-ssm-web/WEB-INF/lib/itcast-ssm-utils-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/itcast-ssm-web/target/itcast-ssm-web/WEB-INF/lib/itcast-ssm-utils-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/itcast-ssm-web/target/tomcat/logs/access_log.2020-07-25" beforeDir="false" afterPath="$PROJECT_DIR$/itcast-ssm-web/target/tomcat/logs/access_log.2020-07-25" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itcast-ssm-web/target/tomcat/logs/access_log.2020-07-25" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/itcast-ssm-web/target/tomcat/work/Tomcat/localhost/itcast-ssm-web/org/apache/jsp/login_jsp.java" beforeDir="false" afterPath="$PROJECT_DIR$/itcast-ssm-web/target/tomcat/work/Tomcat/localhost/itcast-ssm-web/org/apache/jsp/login_jsp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/itcast-ssm-web/target/tomcat/work/Tomcat/localhost/itcast-ssm-web/org/apache/jsp/pages/aside_jsp.java" beforeDir="false" afterPath="$PROJECT_DIR$/itcast-ssm-web/target/tomcat/work/Tomcat/localhost/itcast-ssm-web/org/apache/jsp/pages/aside_jsp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/itcast-ssm-web/target/tomcat/work/Tomcat/localhost/itcast-ssm-web/org/apache/jsp/pages/header_jsp.java" beforeDir="false" afterPath="$PROJECT_DIR$/itcast-ssm-web/target/tomcat/work/Tomcat/localhost/itcast-ssm-web/org/apache/jsp/pages/header_jsp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/itcast-ssm-web/target/tomcat/work/Tomcat/localhost/itcast-ssm-web/org/apache/jsp/pages/main_jsp.java" beforeDir="false" afterPath="$PROJECT_DIR$/itcast-ssm-web/target/tomcat/work/Tomcat/localhost/itcast-ssm-web/org/apache/jsp/pages/main_jsp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/itcast-ssm-web/target/tomcat/work/Tomcat/localhost/itcast-ssm-web/org/apache/jsp/pages/permission_002dadd_jsp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/itcast-ssm-web/target/tomcat/work/Tomcat/localhost/itcast-ssm-web/org/apache/jsp/pages/permission_002dadd_jsp.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/itcast-ssm-web/target/tomcat/work/Tomcat/localhost/itcast-ssm-web/org/apache/jsp/pages/permission_002dlist_jsp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/itcast-ssm-web/target/tomcat/work/Tomcat/localhost/itcast-ssm-web/org/apache/jsp/pages/permission_002dlist_jsp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/itcast-ssm-web/target/tomcat/work/Tomcat/localhost/itcast-ssm-web/org/apache/jsp/pages/user_002dlist_jsp.java" beforeDir="false" afterPath="$PROJECT_DIR$/itcast-ssm-web/target/tomcat/work/Tomcat/localhost/itcast-ssm-web/org/apache/jsp/pages/user_002dlist_jsp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itcast-ssm-web/target/tomcat/work/Tomcat/localhost/itcast-ssm-web/org/apache/jsp/pages/user_002drole_002dadd_jsp.java" beforeDir="false" afterPath="$PROJECT_DIR$/itcast-ssm-web/target/tomcat/work/Tomcat/localhost/itcast-ssm-web/org/apache/jsp/pages/user_002drole_002dadd_jsp.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -327,7 +321,8 @@
       <workItem from="1594044301927" duration="6592000" />
       <workItem from="1594221429849" duration="4414000" />
       <workItem from="1595599792393" duration="9001000" />
-      <workItem from="1595664925026" duration="9428000" />
+      <workItem from="1595664925026" duration="10239000" />
+      <workItem from="1595690930794" duration="1923000" />
     </task>
     <servers />
   </component>
@@ -346,10 +341,10 @@
       <screen x="0" y="23" width="1680" height="979" />
     </state>
     <state x="304" y="172" width="1071" height="703" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1680.979@0.23.1680.979" timestamp="1593618098348" />
-    <state x="653" y="201" key="#com.intellij.ide.util.MemberChooser" timestamp="1595675235251">
+    <state x="653" y="201" key="#com.intellij.ide.util.MemberChooser" timestamp="1595691768496">
       <screen x="0" y="23" width="1680" height="979" />
     </state>
-    <state x="653" y="201" key="#com.intellij.ide.util.MemberChooser/0.23.1680.979@0.23.1680.979" timestamp="1595675235251" />
+    <state x="653" y="201" key="#com.intellij.ide.util.MemberChooser/0.23.1680.979@0.23.1680.979" timestamp="1595691768496" />
     <state x="601" y="377" width="478" height="276" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1593611426615">
       <screen x="0" y="23" width="1680" height="979" />
     </state>
@@ -358,22 +353,22 @@
       <screen x="0" y="23" width="1680" height="979" />
     </state>
     <state x="168" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.23.1680.979@0.23.1680.979" timestamp="1594049770974" />
-    <state width="1638" height="221" key="GridCell.Tab.0.bottom" timestamp="1595675826380">
+    <state width="1638" height="221" key="GridCell.Tab.0.bottom" timestamp="1595693140770">
       <screen x="0" y="23" width="1680" height="979" />
     </state>
-    <state width="1638" height="221" key="GridCell.Tab.0.bottom/0.23.1680.979@0.23.1680.979" timestamp="1595675826380" />
-    <state width="1638" height="221" key="GridCell.Tab.0.center" timestamp="1595675826379">
+    <state width="1638" height="221" key="GridCell.Tab.0.bottom/0.23.1680.979@0.23.1680.979" timestamp="1595693140770" />
+    <state width="1638" height="221" key="GridCell.Tab.0.center" timestamp="1595693140769">
       <screen x="0" y="23" width="1680" height="979" />
     </state>
-    <state width="1638" height="221" key="GridCell.Tab.0.center/0.23.1680.979@0.23.1680.979" timestamp="1595675826379" />
-    <state width="1638" height="221" key="GridCell.Tab.0.left" timestamp="1595675826379">
+    <state width="1638" height="221" key="GridCell.Tab.0.center/0.23.1680.979@0.23.1680.979" timestamp="1595693140769" />
+    <state width="1638" height="221" key="GridCell.Tab.0.left" timestamp="1595693140769">
       <screen x="0" y="23" width="1680" height="979" />
     </state>
-    <state width="1638" height="221" key="GridCell.Tab.0.left/0.23.1680.979@0.23.1680.979" timestamp="1595675826379" />
-    <state width="1638" height="221" key="GridCell.Tab.0.right" timestamp="1595675826379">
+    <state width="1638" height="221" key="GridCell.Tab.0.left/0.23.1680.979@0.23.1680.979" timestamp="1595693140769" />
+    <state width="1638" height="221" key="GridCell.Tab.0.right" timestamp="1595693140770">
       <screen x="0" y="23" width="1680" height="979" />
     </state>
-    <state width="1638" height="221" key="GridCell.Tab.0.right/0.23.1680.979@0.23.1680.979" timestamp="1595675826379" />
+    <state width="1638" height="221" key="GridCell.Tab.0.right/0.23.1680.979@0.23.1680.979" timestamp="1595693140770" />
     <state width="1638" height="324" key="GridCell.Tab.1.bottom" timestamp="1595612514207">
       <screen x="0" y="23" width="1680" height="979" />
     </state>
