@@ -5,4 +5,6 @@ com/itheima/ssm/service/IRoleService.class
 com/itheima/ssm/service/impl/OrderServiceImpl.class
 com/itheima/ssm/service/impl/ProductServiceImpl.class
 com/itheima/ssm/service/impl/RoleServiceImpl.class
+com/itheima/ssm/service/impl/PermissionServiceImpl.class
 com/itheima/ssm/service/impl/UserServiceImpl.class
+com/itheima/ssm/service/IPermissionService.class

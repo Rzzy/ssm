@@ -1,4 +1,5 @@
 com/itheima/ssm/controller/OrderController.class
 com/itheima/ssm/controller/RoleController.class
 com/itheima/ssm/controller/ProductController.class
+com/itheima/ssm/controller/PermissionController.class
 com/itheima/ssm/controller/UserController.class
