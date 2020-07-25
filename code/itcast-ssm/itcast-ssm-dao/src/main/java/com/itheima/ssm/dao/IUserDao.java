@@ -1,5 +1,6 @@
 package com.itheima.ssm.dao;
 
+import com.itheima.ssm.domain.Role;
 import com.itheima.ssm.domain.UserInfo;
 import org.apache.ibatis.annotations.*;
 
@@ -36,4 +37,7 @@ public interface IUserDao {
             @Result(property = "roles",column = "id",javaType = java.util.List.class,many = @Many(select = "com.itheima.ssm.dao.IRoleDao.findRoleByUserId"))
     })
     public UserInfo findById(String id) throws Exception;
+
+    @Select("select * from role where id not in (select roleid from users_role where userid = #{userid})")
+    List<Role> findUserByIdAndAllRole(String userid) throws Exception;
 }
