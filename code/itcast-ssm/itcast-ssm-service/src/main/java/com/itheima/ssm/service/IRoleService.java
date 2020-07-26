@@ -14,4 +14,6 @@ public interface IRoleService {
     public Role findById(String roleId) throws Exception;
 
     public List<Permission> findRoleByIdAndAllPermission(String roleId);
+
+    void addPermissionToRole(String roleId, String[] permissionIds) throws Exception;
 }

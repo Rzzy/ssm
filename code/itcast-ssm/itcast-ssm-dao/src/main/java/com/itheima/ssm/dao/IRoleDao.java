@@ -35,4 +35,7 @@ public interface IRoleDao {
     public Role findById(String roleId) throws Exception;
     @Select("select * from permission where id not in (select permissionid from role_permission where roleid = #{roleId})")
     List<Permission> findRoleByIdAndAllPermission(String roleId);
+
+    @Insert("insert into role_permission(permissionid,roleid) values(#{permissionid},#{roleid})")
+    void addPermissionToRole(@Param("roleid") String roleId, @Param("permissionid") String permissionId);
 }

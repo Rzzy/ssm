@@ -3,6 +3,7 @@ package com.itheima.ssm.controller;
 import com.itheima.ssm.domain.Order;
 import com.itheima.ssm.service.IOrderService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.access.annotation.Secured;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
@@ -25,6 +26,7 @@ public class OrderController {
      * @throws Exception
      */
     @RequestMapping("/findAll.do")
+    @Secured("ROLE_ADMIN")
     public ModelAndView findAll(@RequestParam(name = "page",required = true,defaultValue = "1") int page, @RequestParam(name = "size",required = true,defaultValue = "2") int size) throws Exception{
 
         ModelAndView mv = new ModelAndView();

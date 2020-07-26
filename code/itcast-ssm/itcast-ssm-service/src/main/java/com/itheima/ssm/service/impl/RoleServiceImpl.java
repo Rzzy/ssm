@@ -39,4 +39,11 @@ public class RoleServiceImpl implements IRoleService {
     public List<Permission> findRoleByIdAndAllPermission(String roleId) {
         return roleDao.findRoleByIdAndAllPermission(roleId);
     }
+
+    @Override
+    public void addPermissionToRole(String roleId, String[] permissionIds) throws Exception {
+        for (String permissionId : permissionIds) {
+            roleDao.addPermissionToRole(roleId,permissionId);
+        }
+    }
 }
