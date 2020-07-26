@@ -5,3 +5,4 @@ com/itheima/ssm/domain/Order.class
 com/itheima/ssm/domain/Role.class
 com/itheima/ssm/domain/Permission.class
 com/itheima/ssm/domain/Product.class
+com/itheima/ssm/domain/SysLog.class

@@ -2,14 +2,62 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
+      <artifact name="itcast-ssm-web:war" />
       <artifact name="itcast-ssm-web:war exploded" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="667d5963-3350-47e0-9ef7-a5bcc5f73504" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/tomcat_api.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itcast-ssm-dao/src/main/java/com/itheima/ssm/dao/ISysLogDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itcast-ssm-domain/src/main/java/com/itheima/ssm/domain/SysLog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itcast-ssm-service/src/main/java/com/itheima/ssm/service/ISysLogService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itcast-ssm-service/src/main/java/com/itheima/ssm/service/impl/SysLogServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itcast-ssm-web/src/main/java/com/itheima/ssm/controller/LogAop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itcast-ssm-web/src/main/webapp/pages/syslog-list.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/itcast-ssm-web/src/main/resources/spring-security.xml" beforeDir="false" afterPath="$PROJECT_DIR$/itcast-ssm-web/src/main/resources/spring-security.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/itcast-ssm-web/target/tomcat/logs/access_log.2020-07-26" beforeDir="false" afterPath="$PROJECT_DIR$/itcast-ssm-web/target/tomcat/logs/access_log.2020-07-26" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itcast-ssm-dao/target/itcast-ssm-dao-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/itcast-ssm-dao/target/itcast-ssm-dao-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itcast-ssm-dao/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/itcast-ssm-dao/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itcast-ssm-dao/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/itcast-ssm-dao/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itcast-ssm-dao/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/itcast-ssm-dao/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itcast-ssm-domain/target/itcast-ssm-domain-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/itcast-ssm-domain/target/itcast-ssm-domain-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itcast-ssm-domain/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/itcast-ssm-domain/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itcast-ssm-domain/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/itcast-ssm-domain/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itcast-ssm-domain/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/itcast-ssm-domain/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itcast-ssm-service/target/itcast-ssm-service-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/itcast-ssm-service/target/itcast-ssm-service-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itcast-ssm-service/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/itcast-ssm-service/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itcast-ssm-service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/itcast-ssm-service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itcast-ssm-service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/itcast-ssm-service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itcast-ssm-utils/target/itcast-ssm-utils-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/itcast-ssm-utils/target/itcast-ssm-utils-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itcast-ssm-utils/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/itcast-ssm-utils/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itcast-ssm-web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/itcast-ssm-web/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itcast-ssm-web/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/itcast-ssm-web/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itcast-ssm-web/target/itcast-ssm-web.war" beforeDir="false" afterPath="$PROJECT_DIR$/itcast-ssm-web/target/itcast-ssm-web.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itcast-ssm-web/target/itcast-ssm-web/WEB-INF/classes/spring-security.xml" beforeDir="false" afterPath="$PROJECT_DIR$/itcast-ssm-web/target/itcast-ssm-web/WEB-INF/classes/spring-security.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itcast-ssm-web/target/itcast-ssm-web/WEB-INF/lib/itcast-ssm-dao-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/itcast-ssm-web/target/itcast-ssm-web/WEB-INF/lib/itcast-ssm-dao-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itcast-ssm-web/target/itcast-ssm-web/WEB-INF/lib/itcast-ssm-domain-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/itcast-ssm-web/target/itcast-ssm-web/WEB-INF/lib/itcast-ssm-domain-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itcast-ssm-web/target/itcast-ssm-web/WEB-INF/lib/itcast-ssm-service-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/itcast-ssm-web/target/itcast-ssm-web/WEB-INF/lib/itcast-ssm-service-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itcast-ssm-web/target/itcast-ssm-web/WEB-INF/lib/itcast-ssm-utils-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/itcast-ssm-web/target/itcast-ssm-web/WEB-INF/lib/itcast-ssm-utils-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itcast-ssm-web/target/itcast-ssm-web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/itcast-ssm-web/target/itcast-ssm-web/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itcast-ssm-web/target/itcast-ssm-web/pages/aside.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/itcast-ssm-web/target/itcast-ssm-web/pages/aside.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itcast-ssm-web/target/itcast-ssm-web/pages/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/itcast-ssm-web/target/itcast-ssm-web/pages/header.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itcast-ssm-web/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/itcast-ssm-web/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itcast-ssm-web/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/itcast-ssm-web/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itcast-ssm-web/target/tomcat/logs/access_log.2020-07-26" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/itcast-ssm-web/target/tomcat/work/Tomcat/localhost/itcast-ssm-web/org/apache/jsp/_403_jsp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/itcast-ssm-web/target/tomcat/work/Tomcat/localhost/itcast-ssm-web/org/apache/jsp/_403_jsp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/itcast-ssm-web/target/tomcat/work/Tomcat/localhost/itcast-ssm-web/org/apache/jsp/index_jsp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/itcast-ssm-web/target/tomcat/work/Tomcat/localhost/itcast-ssm-web/org/apache/jsp/index_jsp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/itcast-ssm-web/target/tomcat/work/Tomcat/localhost/itcast-ssm-web/org/apache/jsp/login_jsp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/itcast-ssm-web/target/tomcat/work/Tomcat/localhost/itcast-ssm-web/org/apache/jsp/login_jsp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/itcast-ssm-web/target/tomcat/work/Tomcat/localhost/itcast-ssm-web/org/apache/jsp/pages/aside_jsp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/itcast-ssm-web/target/tomcat/work/Tomcat/localhost/itcast-ssm-web/org/apache/jsp/pages/aside_jsp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/itcast-ssm-web/target/tomcat/work/Tomcat/localhost/itcast-ssm-web/org/apache/jsp/pages/header_jsp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/itcast-ssm-web/target/tomcat/work/Tomcat/localhost/itcast-ssm-web/org/apache/jsp/pages/header_jsp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/itcast-ssm-web/target/tomcat/work/Tomcat/localhost/itcast-ssm-web/org/apache/jsp/pages/main_jsp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/itcast-ssm-web/target/tomcat/work/Tomcat/localhost/itcast-ssm-web/org/apache/jsp/pages/main_jsp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/itcast-ssm-web/target/tomcat/work/Tomcat/localhost/itcast-ssm-web/org/apache/jsp/pages/orders_002dlist_jsp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/itcast-ssm-web/target/tomcat/work/Tomcat/localhost/itcast-ssm-web/org/apache/jsp/pages/orders_002dlist_jsp.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +93,13 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -73,10 +128,10 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/itcast-ssm-web/src/main/webapp/pages" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.34020618" />
-    <property name="settings.editor.selected.configurable" value="spring" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.runner" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -87,7 +142,7 @@
       <recent name="$PROJECT_DIR$/itcast-ssm-web/src/main/webapp" />
     </key>
   </component>
-  <component name="RunManager" selected="Maven.heima-ssm-web">
+  <component name="RunManager">
     <configuration name="heima-ssm-web" type="MavenRunConfiguration" factoryName="Maven">
       <MavenSettings>
         <option name="myGeneralSettings" />
@@ -112,78 +167,6 @@
         </option>
       </MavenSettings>
       <method v="2" />
-    </configuration>
-    <configuration name="Tomcat 9.0.13" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.13" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
-      <option name="UPDATING_POLICY" value="restart-server" />
-      <deployment>
-        <artifact name="itcast-ssm-web:war exploded">
-          <settings>
-            <option name="CONTEXT_PATH" value="/itcast_ssm_web_war_exploded" />
-          </settings>
-        </artifact>
-      </deployment>
-      <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="Tomcat_9_0_13_itcast-ssm" />
-      </server-settings>
-      <predefined_log_file enabled="true" id="Tomcat" />
-      <predefined_log_file enabled="true" id="Tomcat Catalina" />
-      <predefined_log_file id="Tomcat Manager" />
-      <predefined_log_file id="Tomcat Host Manager" />
-      <predefined_log_file id="Tomcat Localhost Access" />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="59283" />
-      </RunnerSettings>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <method v="2">
-        <option name="Make" enabled="true" />
-        <option name="BuildArtifacts" enabled="true">
-          <artifact name="itcast-ssm-web:war exploded" />
-        </option>
-      </method>
     </configuration>
     <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.13" ALTERNATIVE_JRE_ENABLED="false">
       <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/itcast_ssm_web_war_exploded/" />
@@ -259,17 +242,23 @@
         </option>
       </method>
     </configuration>
-    <list>
-      <item itemvalue="Maven.heima-ssm-web" />
-      <item itemvalue="Tomcat Server.Tomcat 9.0.13" />
-    </list>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
       <list>
         <serviceView>
           <treeState>
-            <expand />
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Running" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+            </expand>
             <select />
           </treeState>
         </serviceView>
@@ -296,7 +285,8 @@
       <workItem from="1595599792393" duration="9001000" />
       <workItem from="1595664925026" duration="10239000" />
       <workItem from="1595690930794" duration="7202000" />
-      <workItem from="1595726599399" duration="5026000" />
+      <workItem from="1595726599399" duration="8647000" />
+      <workItem from="1595781121943" duration="1346000" />
     </task>
     <servers />
   </component>
@@ -307,18 +297,26 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="440" y="176" key="#Project_Structure" timestamp="1594222200127">
+    <state x="440" y="176" key="#Project_Structure" timestamp="1595782109981">
       <screen x="0" y="23" width="1680" height="979" />
     </state>
-    <state x="440" y="176" key="#Project_Structure/0.23.1680.979@0.23.1680.979" timestamp="1594222200127" />
-    <state x="304" y="172" width="1071" height="703" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1593618098348">
+    <state x="440" y="176" key="#Project_Structure/0.23.1680.979@0.23.1680.979" timestamp="1595782109981" />
+    <state x="439" y="189" key="#Tomcat_Server" timestamp="1595781037426">
       <screen x="0" y="23" width="1680" height="979" />
     </state>
-    <state x="304" y="172" width="1071" height="703" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1680.979@0.23.1680.979" timestamp="1593618098348" />
-    <state x="653" y="201" key="#com.intellij.ide.util.MemberChooser" timestamp="1595772162533">
+    <state x="439" y="189" key="#Tomcat_Server/0.23.1680.979@0.23.1680.979" timestamp="1595781037426" />
+    <state x="304" y="172" width="1071" height="703" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1595782056658">
       <screen x="0" y="23" width="1680" height="979" />
     </state>
-    <state x="653" y="201" key="#com.intellij.ide.util.MemberChooser/0.23.1680.979@0.23.1680.979" timestamp="1595772162533" />
+    <state x="304" y="172" width="1071" height="703" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1680.979@0.23.1680.979" timestamp="1595782056658" />
+    <state x="653" y="201" key="#com.intellij.ide.util.MemberChooser" timestamp="1595777928922">
+      <screen x="0" y="23" width="1680" height="979" />
+    </state>
+    <state x="653" y="201" key="#com.intellij.ide.util.MemberChooser/0.23.1680.979@0.23.1680.979" timestamp="1595777928922" />
+    <state x="439" y="189" key="#com.intellij.j2ee.appServerIntegrations.ApplicationServersConfigurable" timestamp="1595781270793">
+      <screen x="0" y="23" width="1680" height="979" />
+    </state>
+    <state x="439" y="189" key="#com.intellij.j2ee.appServerIntegrations.ApplicationServersConfigurable/0.23.1680.979@0.23.1680.979" timestamp="1595781270793" />
     <state x="601" y="377" width="478" height="276" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1593611426615">
       <screen x="0" y="23" width="1680" height="979" />
     </state>
@@ -327,42 +325,66 @@
       <screen x="0" y="23" width="1680" height="979" />
     </state>
     <state x="168" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.23.1680.979@0.23.1680.979" timestamp="1594049770974" />
-    <state width="1638" height="180" key="GridCell.Tab.0.bottom" timestamp="1595777647873">
+    <state x="591" y="340" width="771" height="500" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog" timestamp="1595781526486">
       <screen x="0" y="23" width="1680" height="979" />
     </state>
-    <state width="1638" height="180" key="GridCell.Tab.0.bottom/0.23.1680.979@0.23.1680.979" timestamp="1595777647873" />
-    <state width="1638" height="180" key="GridCell.Tab.0.center" timestamp="1595777647872">
+    <state x="591" y="340" width="771" height="500" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog/0.23.1680.979@0.23.1680.979" timestamp="1595781526486" />
+    <state width="1126" height="264" key="GridCell.Tab.0.bottom" timestamp="1595782547152">
       <screen x="0" y="23" width="1680" height="979" />
     </state>
-    <state width="1638" height="180" key="GridCell.Tab.0.center/0.23.1680.979@0.23.1680.979" timestamp="1595777647872" />
-    <state width="1638" height="180" key="GridCell.Tab.0.left" timestamp="1595777647872">
+    <state width="1126" height="264" key="GridCell.Tab.0.bottom/0.23.1680.979@0.23.1680.979" timestamp="1595782547152" />
+    <state width="1126" height="264" key="GridCell.Tab.0.center" timestamp="1595782547151">
       <screen x="0" y="23" width="1680" height="979" />
     </state>
-    <state width="1638" height="180" key="GridCell.Tab.0.left/0.23.1680.979@0.23.1680.979" timestamp="1595777647872" />
-    <state width="1638" height="180" key="GridCell.Tab.0.right" timestamp="1595777647872">
+    <state width="1126" height="264" key="GridCell.Tab.0.center/0.23.1680.979@0.23.1680.979" timestamp="1595782547151" />
+    <state width="1126" height="264" key="GridCell.Tab.0.left" timestamp="1595782547150">
       <screen x="0" y="23" width="1680" height="979" />
     </state>
-    <state width="1638" height="180" key="GridCell.Tab.0.right/0.23.1680.979@0.23.1680.979" timestamp="1595777647872" />
-    <state width="1638" height="324" key="GridCell.Tab.1.bottom" timestamp="1595612514207">
+    <state width="1126" height="264" key="GridCell.Tab.0.left/0.23.1680.979@0.23.1680.979" timestamp="1595782547150" />
+    <state width="1126" height="264" key="GridCell.Tab.0.right" timestamp="1595782547151">
       <screen x="0" y="23" width="1680" height="979" />
     </state>
-    <state width="1638" height="324" key="GridCell.Tab.1.bottom/0.23.1680.979@0.23.1680.979" timestamp="1595612514207" />
-    <state width="1638" height="324" key="GridCell.Tab.1.center" timestamp="1595612514206">
+    <state width="1126" height="264" key="GridCell.Tab.0.right/0.23.1680.979@0.23.1680.979" timestamp="1595782547151" />
+    <state width="1126" height="264" key="GridCell.Tab.1.bottom" timestamp="1595782547153">
       <screen x="0" y="23" width="1680" height="979" />
     </state>
-    <state width="1638" height="324" key="GridCell.Tab.1.center/0.23.1680.979@0.23.1680.979" timestamp="1595612514206" />
-    <state width="1638" height="324" key="GridCell.Tab.1.left" timestamp="1595612514206">
+    <state width="1126" height="264" key="GridCell.Tab.1.bottom/0.23.1680.979@0.23.1680.979" timestamp="1595782547153" />
+    <state width="1126" height="264" key="GridCell.Tab.1.center" timestamp="1595782547152">
       <screen x="0" y="23" width="1680" height="979" />
     </state>
-    <state width="1638" height="324" key="GridCell.Tab.1.left/0.23.1680.979@0.23.1680.979" timestamp="1595612514206" />
-    <state width="1638" height="324" key="GridCell.Tab.1.right" timestamp="1595612514207">
+    <state width="1126" height="264" key="GridCell.Tab.1.center/0.23.1680.979@0.23.1680.979" timestamp="1595782547152" />
+    <state width="1126" height="264" key="GridCell.Tab.1.left" timestamp="1595782547152">
       <screen x="0" y="23" width="1680" height="979" />
     </state>
-    <state width="1638" height="324" key="GridCell.Tab.1.right/0.23.1680.979@0.23.1680.979" timestamp="1595612514207" />
-    <state x="341" y="149" key="SettingsEditor" timestamp="1595599940347">
+    <state width="1126" height="264" key="GridCell.Tab.1.left/0.23.1680.979@0.23.1680.979" timestamp="1595782547152" />
+    <state width="1126" height="264" key="GridCell.Tab.1.right" timestamp="1595782547153">
       <screen x="0" y="23" width="1680" height="979" />
     </state>
-    <state x="341" y="149" key="SettingsEditor/0.23.1680.979@0.23.1680.979" timestamp="1595599940347" />
+    <state width="1126" height="264" key="GridCell.Tab.1.right/0.23.1680.979@0.23.1680.979" timestamp="1595782547153" />
+    <state width="1126" height="264" key="GridCell.Tab.2.bottom" timestamp="1595782547155">
+      <screen x="0" y="23" width="1680" height="979" />
+    </state>
+    <state width="1126" height="264" key="GridCell.Tab.2.bottom/0.23.1680.979@0.23.1680.979" timestamp="1595782547155" />
+    <state width="1126" height="264" key="GridCell.Tab.2.center" timestamp="1595782547154">
+      <screen x="0" y="23" width="1680" height="979" />
+    </state>
+    <state width="1126" height="264" key="GridCell.Tab.2.center/0.23.1680.979@0.23.1680.979" timestamp="1595782547154" />
+    <state width="1126" height="264" key="GridCell.Tab.2.left" timestamp="1595782547153">
+      <screen x="0" y="23" width="1680" height="979" />
+    </state>
+    <state width="1126" height="264" key="GridCell.Tab.2.left/0.23.1680.979@0.23.1680.979" timestamp="1595782547153" />
+    <state width="1126" height="264" key="GridCell.Tab.2.right" timestamp="1595782547154">
+      <screen x="0" y="23" width="1680" height="979" />
+    </state>
+    <state width="1126" height="264" key="GridCell.Tab.2.right/0.23.1680.979@0.23.1680.979" timestamp="1595782547154" />
+    <state x="378" y="174" key="Maven.ArtifactSearchDialog" timestamp="1595781407709">
+      <screen x="0" y="23" width="1680" height="979" />
+    </state>
+    <state x="378" y="174" key="Maven.ArtifactSearchDialog/0.23.1680.979@0.23.1680.979" timestamp="1595781407709" />
+    <state x="341" y="149" key="SettingsEditor" timestamp="1595782397239">
+      <screen x="0" y="23" width="1680" height="979" />
+    </state>
+    <state x="341" y="149" key="SettingsEditor/0.23.1680.979@0.23.1680.979" timestamp="1595782397239" />
     <state x="517" y="343" key="com.intellij.ide.util.TipDialog" timestamp="1594221433676">
       <screen x="0" y="23" width="1680" height="979" />
     </state>
